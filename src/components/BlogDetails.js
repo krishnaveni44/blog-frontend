@@ -40,7 +40,7 @@ const BlogDetails = () => {
   const sendRequest = async () => {
     const res = await axios
       .put(
-        `https://blog-first-application.herokuapp.com/api/blog/update/${id}`,
+        `https://blog-app-7.herokuapp.com/api/blog/update/${id}`,
         {
           title: inputs.title,
           description: inputs.description,
