@@ -111,8 +111,9 @@ const Auth = () => {
             Change To {isSignup ? "Login" : "Signup"}
           </Button>
           <p style={ {margin: "0 0 0 20px", textAlign: "left",width: "100%",fontFamily:"'Roboto','Helvetica','Arial',sans-serif",fontSize:"14px"} }>Demo credentials</p>
-          <p style={ {margin: "0 0 0 20px", textAlign: "left",width: "100%",fontFamily:"'Roboto','Helvetica','Arial',sans-serif",fontSize:"14px"} }>Email: demo@example.com</p>
+          <p style={ {margin: "0 0 0 20px", textAlign: "left",width: "100%",fontFamily:"'Roboto','Helvetica','Arial',sans-serif",fontSize:"14px"} }>User: demo@example.com</p>
           <p style={ {margin: "0 0 0 20px", textAlign: "left",width: "100%",fontFamily:"'Roboto','Helvetica','Arial',sans-serif",fontSize:"14px"} }>Password: demo123</p>
+         
         </Box>
       </form>
     </div>
