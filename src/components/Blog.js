@@ -23,7 +23,8 @@ const Blog = ({ title, description, imageURL, userName, isUser, id }) => {
 
   const deleteRequest = async () => {
     const res = await axios
-      .delete(`https://blog-app-7.herokuapp.com/api/blog/${id}`)
+      
+      .delete(`https://blog-backend-7e48.vercel.app/api/blog/${id}`)      
       .catch((err) => console.log(err));
     const data = await res.data;
     return data;

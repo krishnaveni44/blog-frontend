@@ -6,7 +6,8 @@ const UserBlogs = () => {
   const id = localStorage.getItem("userId");
   const sendRequest = async () => {
     const res = await axios
-      .get(`https://blog-app-7.herokuapp.com/api/blog/user/${id}`)
+      
+      .get(`https://blog-backend-7e48.vercel.app/api/blog/user/${id}`) 
       .catch((err) => console.log(err));
     const data = await res.data;
     return data;

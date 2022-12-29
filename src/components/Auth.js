@@ -1,7 +1,7 @@
 import { Button, TextField, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React, { useState } from "react";
-import axiox from "axios";
+import axios from "axios";
 import { useDispatch } from "react-redux";
 import { authActions } from "../store";
 import { useNavigate } from "react-router-dom";
@@ -24,9 +24,10 @@ const Auth = () => {
   };
 
   const sendRequest = async (type = "login") => {
-    const res = await axiox
-      .post(`https://blog-app-7.herokuapp.com/api/user/${type}`, {
-        name: inputs.name,
+    const res = await axios
+      
+        .post(`https://blog-backend-7e48.vercel.app/api/user/${type}`, {         
+      name: inputs.name,
         email: inputs.email,
         password: inputs.password,
       })

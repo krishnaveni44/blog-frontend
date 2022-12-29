@@ -22,7 +22,8 @@ const AddBlog = () => {
 
   const sendRequest = async () => {
     const res = await axios
-      .post("https://blog-app-7.herokuapp.com/api/blog/add", {
+      
+          .post("https://blog-backend-7e48.vercel.app/api/blog/add", {          
         title: inputs.title,
         description: inputs.description,
         image: inputs.imageURL,

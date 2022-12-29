@@ -22,7 +22,8 @@ const BlogDetails = () => {
 
   const fetchDetails = async () => {
     const res = await axios
-      .get(`https://blog-first-application.herokuapp.com/api/blog/${id}`)
+      
+      .get(`https://blog-backend-7e48.vercel.app/api/blog/${id}`)
       .catch((err) => console.log(err));
     const data = await res.data;
     return data;
