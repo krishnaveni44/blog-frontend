@@ -35,7 +35,6 @@ const Blog = ({ title, description, imageURL, userName, isUser, id }) => {
       .then((data) => navigate("/"))
       .then(() => navigate("/blogs"));
   };
-
   return (
     <div>
       {" "}

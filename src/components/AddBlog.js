@@ -52,7 +52,7 @@ const AddBlog = () => {
           boxShadow="10px 10px 20px #ccc"
           padding={3}
           margin={"auto"}
-          marginTop={3}
+          marginTop={3} 
           display="flex"
           flexDirection={"column"}
           width={"80%"}

@@ -1,10 +1,10 @@
-body{background:url(https://cdn.wallpapersafari.com/8/81/3ZPS9q.png);background-attachment:fixed;background-size:cover;}
+body{background:#0b6e4f}
 .MuiBox-root{background:#ffffffe8;}
 .MuiBox-root div{width:100%;}
-header{background:#1960d2 !important;box-shadow:0 3px 7px #bbb8b8;position:fixed;top:0;width:100%;z-index:9;}
+header{background:#ffffff !important;box-shadow:0 3px 7px #bbb8b8;position:fixed;top:0;width:100%;z-index:9;}
 main{margin-top:100px}
 header .MuiBox-root{background:none;}
-.css-1pxm6m2-MuiButtonBase-root-MuiButton-root{border-radius:10px;}
+.css-1pxm6m2-MuiButtonBase-root-MuiButton-root{background:#0b6e4f !important;border-radius:10px;}
 button{border-radius:5px !important;padding:14px 0 !important;width:100%}
 input[type=email],
 input[type=password]{background:#fff;}
@@ -13,3 +13,8 @@ header a{color:#fff !important;opacity:1 !important;}
 button.css-djcg5u-MuiButtonBase-root-MuiIconButton-root,
 button.css-78trlr-MuiButtonBase-root-MuiIconButton-root{padding:10px !important;width:auto;}
 .css-k008qs{float:right;padding:10px;}
+.css-1t09iy9-MuiPaper-root-MuiAppBar-root{color:#0b6e4f !important}
+.css-1yr0nl-MuiButtonBase-root-MuiButton-root{background:#0b6e4f !important}
+.css-1q9ux04{background: #fff !important; box-shadow: 5px 5px 20px #0a00004f;}
+.css-1o3jkkl-MuiButtonBase-root-MuiTab-root{color:#0b6e4f !important;position:relative;text-transform:none;transition:all .5s;}
+.css-p24c87-MuiButtonBase-root-MuiButton-root{color:#0b6e4f !important}
