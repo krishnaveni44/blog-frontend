@@ -64,9 +64,9 @@ const AddBlog = () => {
             variant="h2"
             textAlign={"center"}
           >
-            Post Your Blog
+            Post Your Task
           </Typography>
-          <InputLabel sx={lableStyles}>Title</InputLabel>
+          <InputLabel sx={lableStyles}>Task Title</InputLabel>
           <TextField
             name="title"
             onChange={handleChange}
@@ -74,7 +74,7 @@ const AddBlog = () => {
             margin="normal"
             variant="outlined"
           />
-          <InputLabel sx={lableStyles}>Description</InputLabel>
+          <InputLabel sx={lableStyles}>Task Description</InputLabel>
           <TextField
             name="description"
             onChange={handleChange}
@@ -82,7 +82,7 @@ const AddBlog = () => {
             margin="normal"
             variant="outlined"
           />
-          <InputLabel sx={lableStyles}>ImageURL</InputLabel>
+          <InputLabel sx={lableStyles}>Task ImageURL</InputLabel>
           <TextField
             name="imageURL"
             onChange={handleChange}
