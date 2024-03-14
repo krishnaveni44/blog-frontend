@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <AppBar position="sticky" sx={{ background: "black" }}>
       <Toolbar>
-        <Typography variant="h4">Tasks App</Typography>
+        <Typography variant="h4">Blogs App</Typography>
         {isLoggedIn && (
           <Box display="flex" marginLeft={"auto"} marginRight="auto">
             <Tabs
@@ -32,19 +32,19 @@ const Header = () => {
                 LinkComponent={Link}
                 to="/blogs"
                 sx={{ color: "white" }}
-                label="All Tasks"
+                label="All Blogs"
               />
               <Tab
                 LinkComponent={Link}
                 to="/myBlogs"
                 sx={{ color: "white" }}
-                label="My Tasks"
+                label="My Blogs"
               />
               <Tab
                 LinkComponent={Link}
                 to="/blogs/add"
                 sx={{ color: "white" }}
-                label="Add Tasks"
+                label="Add Blogs"
               />
             </Tabs>
           </Box>
