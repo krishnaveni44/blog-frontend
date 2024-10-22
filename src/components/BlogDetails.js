@@ -41,7 +41,7 @@ const BlogDetails = () => {
   const sendRequest = async () => {
     const res = await axios
       .put(
-        `https://blog-app-7.herokuapp.com/api/blog/update/${id}`,
+        `https://blog-backend-7e48.vercel.app/api/blog/update/${id}`,
         {
           title: inputs.title,
           description: inputs.description,
